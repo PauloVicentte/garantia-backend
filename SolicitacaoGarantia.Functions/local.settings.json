@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "Camunda.Configuracoes": "[{\"Sistema\":\"garantia\",\"Url\":\"https://camunda-processo-garantia.onrender.com/engine-rest\"}]",
+    "DefaultConnection": "Host=tramway.proxy.rlwy.net;Port=21699;Database=railway;Username=postgres;Password=gwiEKplHZsxuvLOEBAyLMNMDPKESFWyl;SSL Mode=Require;Trust Server Certificate=true",
+    "JwtSecret": "OUP2sgN+84W1jvF2k6khOh5jI05r/l0EOc596NQeUi0="
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "http://localhost:4200",
+    "CORSCredentials": true
+  }
+}
