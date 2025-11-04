@@ -3,9 +3,9 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore "./SolicitacaoGarantia.Functions/SolicitacaoGarantia.Functions.csproj"
+RUN dotnet restore "SolicitacaoGarantia.Functions/SolicitacaoGarantia_Functions.csproj"
 
-RUN dotnet publish "./SolicitacaoGarantia.Functions/SolicitacaoGarantia.Functions.csproj" -c Release -o /app/publish
+RUN dotnet publish "SolicitacaoGarantia.Functions/SolicitacaoGarantia_Functions.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
